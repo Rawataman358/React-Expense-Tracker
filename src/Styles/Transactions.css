@@ -1,0 +1,37 @@
+.transactions-container{
+max-width: 1000px;
+margin: auto;
+padding: 28px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead{
+    background: #f9f9f9;
+}
+td,th{
+    padding: 12px;
+    border: 1px solid black;
+text-align: center;
+}
+.action-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.edit-button, .delete-button{
+    border: none;
+
+    color: white;
+    border-radius: 5px;
+}
+.edit-button{
+    background-color: #ffc107;
+    color: black;
+}
+.delete-button{
+    background-color: red;
+    color: black;
+}
