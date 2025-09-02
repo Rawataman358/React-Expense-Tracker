@@ -5,7 +5,7 @@ import Dashboard from './Pages/Dashboard'
 import Transaction from './Pages/Transaction'
 // import Report from './Pages/Report'
 import Notfound from './Pages/Notfound'
-import AddTransaction from './pages/AddTransaction'
+import AddTransaction from './Pages/AddTransaction'
 
 
 const App = () => {
