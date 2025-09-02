@@ -10,7 +10,7 @@ function AddTransaction() {
   const [date, setdate] = useState("")
   const [transaction, setTransaction] = useState([]);
   const [editIndex, seteditIndex] = useState(null);
-  // const location = useLocation();
+  const location = useLocation();
 
 
   function handleaddtransaction() {
