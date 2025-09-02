@@ -8,7 +8,7 @@ function AddTransaction() {
   const [category, setcategory] = useState("")
   const [description, setdescription] = useState("")
   const [date, setdate] = useState("")
-  const [transaction, setTransaction] = useState();
+  const [transaction, setTransaction] = useState([]);
   const [editIndex, seteditIndex] = useState(null);
   const location = useLocation();
 
