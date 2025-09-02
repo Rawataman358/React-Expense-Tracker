@@ -1,6 +1,6 @@
 {
   "name": "expense-tracker",
-  "homepage": "https://Rawataman358.github.io/React-Expense-Tracker/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  
   },
   "dependencies": {
     "chart.js": "^4.5.0",
