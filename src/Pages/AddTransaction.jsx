@@ -10,7 +10,7 @@ function AddTransaction() {
   const [date, setdate] = useState("")
   const [transaction, setTransaction] = useState([]);
   const [editIndex, seteditIndex] = useState(null);
-  const location = useLocation();
+  // const location = useLocation();
 
 
   function handleaddtransaction() {
@@ -78,10 +78,10 @@ function AddTransaction() {
       <div className='transaction-box'>
         <div className='transaction-type'>
           <label>
-            <input type='radio' checked={type == "Expense"} value="Expense" onChange={() => settype("Expense")} /> Expense
+            <input type='radio' checked={type === "Expense"} value="Expense" onChange={() => settype("Expense")} /> Expense
           </label>
           <label>
-            <input type='radio' checked={type == "Income"} value="Income" onChange={() => settype("Income")} /> Income
+            <input type='radio' checked={type === "Income"} value="Income" onChange={() => settype("Income")} /> Income
           </label>
         </div>
 
